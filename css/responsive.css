@@ -1,0 +1,263 @@
+/* =====================
+   desktop
+   min-width: 768px;
+   max-width: 1024px;
+
+===================== */
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #latest-work .block .recent-work-pic ul li .overlay {
+    top: 12px;
+    left: 25px;
+    bottom: 12px;
+    right: 25px;
+  }
+  #team .team-overlay {
+    padding: 10px;
+  }
+
+}
+
+/* =====================
+
+   Tablets
+   min-width: 640px;
+   max-width: 767px;
+
+===================== */
+
+@media (min-width: 640px) and (max-width: 767px) {
+  #team .col {
+    padding: 0 137px;
+    margin-bottom: 20px;
+  }
+  #pricing-table .col {
+    margin-bottom: 20px;
+  }
+  #contact-form .col {
+    margin-bottom: 20px;
+  }
+
+  #blog-left .blog-img .col-md-6 img{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* =====================
+
+   Small Devices
+   min-width: 320px;
+   max-width: 479px;
+
+===================== */
+
+@media (max-width: 762px){  
+  .navbar-brand {
+  padding-left: 10%;
+  }
+}
+
+@media (max-width: 450px){  
+
+	.directora{
+	width: 60%;
+}
+	
+	.VMEtc{
+	width: 70vw;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-bottom: 15vh;
+}
+	
+  #features{
+     display: inline;
+     flex-direction: column;
+  }
+  .feature-block{
+     display: inline;
+     flex-direction: column;
+  }
+  .container .col-md-12{
+    padding-top: 80px;
+  }
+.slider-container {
+  display: none;
+  }
+
+  #logoF{
+    width: 25%;
+  }
+
+#blog-left .MyS1 .Mision{
+  width: 80%;
+  float: left;
+  padding: 5%;
+  height: auto;
+  border: 1px #C2C2C2  solid;
+	margin: 10%;
+}
+#blog-left .MyS1 .Vision{
+  width: 80%;
+  height: auto;
+  padding: 5%;
+  float: left;
+  border: 1px #C2C2C2  solid;
+	margin: 10%;
+}
+
+#blog-left .Axio1 .interioridad,#blog-left .Axio1 .libertad,#blog-left .Axio1 .fraternidad{
+  width: 80%;
+  margin: 10%;
+  float: left;
+  padding: 3%;
+  height: auto;
+  text-align: justify;
+  border: 1px #C2C2C2  solid;
+}
+	.title h2{
+		font-size: 200%;
+	}
+
+
+	.NInicial{
+	margin-top: -7%;
+  float: left;
+  width: 100%;;
+  height: auto;
+	padding: 10%;
+	margin-bottom: 3%;
+}
+.NPrimaria{
+  float: left;
+  width: 100vw;
+  height: auto;
+	padding: 2%;
+	padding: 10%;
+	margin-bottom: 3%;
+}
+.NSecundaria{
+  float: left;
+  width: 100vw;
+  height: auto;
+	padding: 2%;
+	padding: 10%;
+	margin-bottom: 10%;
+}
+.icon-box2-1{
+  float: left;
+	height: 45vw;
+  width: 90vw;
+	background-position: right;
+	background-size: cover;
+	background-image: url(../img/Inicial.JPG);
+}
+.icon-box2-2{
+  float: left;
+	height: 45vw;
+  width: 90vw;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/Primaria.JPG);
+}
+.icon-box2-3{
+  float: left;
+	height: 45vw;
+  width: 90vw;
+	background-position: left;
+	background-size: cover;
+	background-image: url(../img/Secundaria.JPG);
+}
+.ajustes{
+	margin-top: 5vh;
+  float: left;
+  width: 90vw;
+}
+.ajustes p{
+  text-align: left;
+	margin-left: 2%;
+}
+
+
+
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+	
+	
+	.slider-container{
+		width: 70%;
+	}
+  #banner {
+    text-align: center;
+  }
+  #banner .block .buttons a:first-child {
+    margin-left: 7px;
+    margin-bottom: 10px;
+  }
+  #latest-work .block .recent-work-mixMenu ul li {
+    display: block;
+  }
+  #latest-work .block .recent-work-pic ul li .overlay {
+    top: 5px;
+    left: 20px;
+    bottom: 5px;
+    right: 20px;
+  }
+  #latest-work .block .recent-work-pic ul li .overlay h3 {
+    font-size: 14px;
+  }
+  #latest-work .block .recent-work-pic ul li .overlay i {
+    top: 34%;
+    font-size: 23px;
+  }
+  #testimonial .col {
+    padding: 20px;
+    text-align: center;
+  }
+  #testimonial .media .media-left {
+    display: block;
+    padding-right: 0;
+  }
+  #testimonial .media .media-left a {
+    height: 78px;
+    width: 78px;
+    margin: 0 auto;
+  }
+  #testimonial .media .media-body {
+    padding-right: 0;
+  }
+  #team .col {
+    margin-bottom: 20px;
+  }
+  #pricing-table .col {
+    margin-bottom: 20px;
+  }
+  #contact-form .col {
+    margin-bottom: 20px;
+  }
+
+  #blog-left .block .blog-comment .comment-img,
+  #blog-left .blog-comment-main .blog-comment .comment-img,
+  #blog-left .blog-comment-main .sub-blog-comment .comment-img{
+    float: none;
+  }
+
+  #blog-left .blog-comment-main .sub-blog-comment{
+    margin-left: 0;
+  }
+
+  #blog-left .blog-img .col-md-6 img{
+    margin-bottom: 20px;
+  }
+
+}
